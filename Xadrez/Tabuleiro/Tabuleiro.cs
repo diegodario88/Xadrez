@@ -11,5 +11,6 @@
             Colunas = colunas;
             MatrizPecas = new Peca[Linhas, Colunas];
         }
+        public Peca PegaPeca(int linha, int coluna) => MatrizPecas[linha, coluna];
     }
 }
